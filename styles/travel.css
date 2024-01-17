@@ -7,6 +7,17 @@
 .btn-primary{
     border-radius: 8px;
 background: #FF5400;
+width: 174px;
+height: 52px;
+display: flex;
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+align-items: center;
+padding: 16px;
+cursor: pointer;
+border: 0;
 }
 /* header styles */
 header{
@@ -32,6 +43,11 @@ height: 56.008px;
 }
 nav > ul {
     display: flex;
+    display: inline-flex;
+padding: 10px 0px;
+justify-content: center;
+align-items: center;
+gap: 44px;
 }
 nav li{
     list-style: none;
@@ -51,10 +67,10 @@ nav li a{
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     width: 1170px;
 height: 500px;
-flex-shrink: 0;
 border-radius: 16px;
 text-align: center;
 margin: 0px 35px;
+background-color: #131318, #13131800;
 }
 .banner-title{
     color: #FFF;
@@ -70,3 +86,45 @@ font-weight: 400;
 line-height: 26px; /* 162.5% */
 padding: 0px 240px;
 }
+.a{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+}
+.banner-input{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+border: 0;
+margin-top: 20px;
+}
+
+
+/* responsive media quries */
+@media screen   and (max-width:425px ) {
+header{
+    padding: 10px;
+    max-width: 425px;
+}
+nav{
+    flex-direction: column;
+}
+nav > ul{
+    flex-direction: column;
+}
+.nav-div{
+    flex-direction: column;
+}
+.banner{
+    max-width: 425px;
+}
+.banner-input{
+    flex-direction: column;
+}
+}
+
+    
