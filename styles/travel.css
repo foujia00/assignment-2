@@ -102,8 +102,219 @@ background: rgba(255, 255, 255, 0.30);
 border: 0;
 margin-top: 20px;
 }
-
-
+/* main styles*/
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/*tours styles*/
+.tours{
+    display: flex;
+    padding: 135px;
+}
+.tours-title{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.tours-p1{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 577px;
+}
+.tours-ul{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 525px;
+}
+.tours-p2{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 530px;
+}
+.tours-img{
+    width: 540px;
+height: 550px;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+margin-left: 50px;
+}
+/*destination styles*/
+.dest-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.dest-p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 643px;
+padding:0 390px 0 390px;
+}
+.mal{
+    background-image: url(../Images/Rectangle\ 5.png);
+    width: 573px;
+height: 300px;
+border-radius: 16px;
+background-repeat: no-repeat;
+}
+.ind{
+    background-image: url(../Images/Rectangle\ 8.png);
+    width: 573px;
+height: 300px;
+background-repeat:no-repeat;
+margin-left: 24px;
+}
+.sri{
+    background-image: url(../Images/Rectangle\ 6.png);
+    width: 374px;
+height: 286px;
+border-radius: 16px;
+}
+.na{
+    background-image: url(../Images/Rectangle\ 7.png);
+    width: 474px;
+height: 286px;
+border-radius: 16px;
+margin-left: 24px;
+}
+.kas{
+    background-image: url(../Images/Rectangle\ 9.png);
+    width: 274px;
+height: 286px;
+border-radius: 16px;
+margin-left: 24px;
+}
+.bang{
+    background-image: url(../Images/Rectangle\ 11.png);
+    width: 473px;
+height: 300px;
+border-radius: 16px;
+}
+.band{
+    background-image: url(../Images/Rectangle\ 10.png);
+    width: 673px;
+height: 300px;
+border-radius: 16px;
+margin-left: 24px;
+}
+.div1{
+    display:flex;
+    padding: 0px 135px 0px 135px ;
+}
+.div2{
+    display:flex;
+    padding: 0px 135px 0px 135px ;
+}
+.div3{
+    display:flex;
+    padding: 0px 135px 0px 135px ;
+}
+.c-name{
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+}
+/*why styles*/
+.why-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.why-p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 643px;
+padding:0 390px 0 390px;
+}
+.hh{
+    width: 540px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+margin-left: 130px;
+padding: 20px;
+}
+hht{
+    color: #131318;
+text-align: center;
+font-size: 24px;
+font-weight: 800;
+}
+hhp{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+width: 486px;
+}
+.wc{
+    width: 540px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+margin-left: 24px;
+padding: 20px;
+margin-right: 130px;
+}
+.wct{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+wcp{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.r1{
+    display: inline-flex;
+}
+.bp{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-left: 430px;
+margin-top: 40px;
+padding: 20px;
+}
+.bpt{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.bpp{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 486px;
+}
 /* responsive media quries */
 @media screen   and (max-width:425px ) {
 header{
@@ -126,5 +337,3 @@ nav > ul{
     flex-direction: column;
 }
 }
-
-    
