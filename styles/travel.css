@@ -420,4 +420,11 @@ nav > ul{
 .banner-input{
     flex-direction: column;
 }
+footer{
+    max-width: 425px;
 }
+main{
+    max-width: 425px;
+}
+}
+
